@@ -46,9 +46,9 @@ public class SupplementService {
                     productDb.get().setCategory(product.getCategory());
                 }
                 
-                if (product.getObjetivo() != null) {
-                    productDb.get().setObjetivo(product.getObjetivo());
-                }
+//                if (product.getObjetivo() != null) {
+//                    productDb.get().setObjetivo(product.getObjetivo());
+//                }
                 
                 if (product.getDescription() != null) {
                     productDb.get().setDescription(product.getDescription());
